@@ -1,0 +1,153 @@
+/* ── Thank You Page ── */
+
+body {
+  background: #f0f0f0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1a1a1a;
+}
+
+.ty-page {
+  max-width: 780px;
+  margin: 60px auto;
+  padding: 0 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Top card */
+.ty-card {
+  background: #ffffff;
+  width: 100%;
+  padding: 60px 40px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.ty-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 28px;
+}
+
+.ty-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ty-heading {
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.ty-subtext {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.ty-btn {
+  background: #000199;
+  color: #fff;
+  border: none;
+  padding: 14px 36px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  transition: background 0.3s ease;
+}
+
+.ty-btn:hover {
+  background: #b7b7b7;
+  color: #222;
+}
+
+/* Bottom info row */
+.ty-info-row {
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ty-info-block {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 28px 30px;
+}
+
+.ty-info-divider {
+  width: 1px;
+  background: #e0e0e0;
+  margin: 20px 0;
+}
+
+.ty-info-icon {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  background: #edf0f8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ty-info-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.ty-info-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.ty-info-text {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.ty-contact-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2f6db5;
+  text-decoration: none;
+}
+
+.ty-contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Return link */
+.ty-return {
+  margin-top: 8px;
+}
+
+.ty-return-link {
+  font-size: 14px;
+  color: #2f6db5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ty-return-link:hover {
+  text-decoration: underline;
+}
