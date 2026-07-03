@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Car Showroom</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="merc.css">
+<style>
+    html { scroll-behavior: smooth; }
+</style>
+</head>
+
+<body>
+<script src="script.js"></script>
+<nav>
+    <div class="nav-links">
+        <a href="#headline-offers">Headline Offers</a>
+        <a href="#comparison-tool">Comparison Tool</a>
+        <a href="#test-drive">Test Drive</a>
+        <a href="#sign-up">Sign Up</a>
+    </div>
+
+    <div class="nav-logo">
+        <img src="logo.png"
+     alt="Mercedes-AMG Logo"
+     width="100">
+    </div>
+
+    <div class="nav-actions">
+        <a href="#"></a>
+        <button class="btn">Login</button>
+    </div>
+</nav>
+
+<section class="hero">
+
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-text">
+        <h1>Mercedes-AMG Car Showroom</h1>
+
+        <p>
+            Experience the perfect blend of luxury, innovation, and performance.
+            Explore the latest Mercedes-AMG models and book a test drive today.
+        </p>
+
+        <a href="#test-drive">
+            <button class="btn">Book Test Drive</button>
+        </a>
+    </div>
+
+</section>
+
+<section id="headline-offers" class="section">
+
+    <div class="section-header">
+        <h2>Headline Offers</h2>
+        <button class="btn">Filter</button>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="AMGGT43.png">
+            <h3>Mercedes-AMG GT 43 Premium Coupé</h3>
+            <p>Experience dynamic performance, premium comfort, 
+                and iconic AMG styling with the Mercedes-AMG GT 43 Premium Coupé.</p>
+            <button class="btn">Find Out More</button>
+        </div>
+   
+        <div class="card">
+            <img src="AMGGLE53SUV.png">
+            <h3>Mercedes-AMG GLE 53 SUV</h3>
+            <p>Mercedes-AMG GLE 53 HYBRID 4MATIC+ Premium | Fuel consumption 
+                combined: 67.3 mpg[1]CO₂ emissions weighted: 95 g/km[1]Equivalent </p>
+            <button class="btn">Find Out More</button>
+        </div>
+
+        <div class="card">
+           <img src="AMGCLA35Coupé.png">
+            <h3>Mercedes-AMG CLA 35 Coupé</h3>
+            <p>Mercedes-AMG CLE 53 4MATIC+ AMG Premium Coupé | Energy consumption 
+                combined: 30.4 mpg[1][2]CO₂ emissions combined: 213 g/km[1]</p>
+            <button class="btn">Find Out More</button>
+        </div>
+
+        <div class="card">
+            <img src="MaybachGLS600.png">
+            <h3>Mercedes-Maybach GLS 600</h3>
+            <p>Mercedes-Maybach GLS 600 4MATIC First Class | Energy consumption 
+                combined: 20.4 mpg[1][2]CO₂ emissions combined: 315 g/km[1]</p>
+            <button class="btn">Find Out More</button>
+        </div>
+    </div>
+
+</section>
+
+<section id="comparison-tool" class="section">
+    <h2>Comparison Tool</h2>
+
+    <div class="comparison-grid">
+
+        <div class="comparison-card">
+            <img src="AMGGT43.png">
+            <h3>Mercedes-AMG GT 43 Premium Coupé</h3>
+            <ul>
+            <li>4-door sports coupé</li>
+            <li>Lower, sharper, more engaging on twisty roads</li>
+            <li>2.0L turbo with hybrid assistance</li>
+            <li>Faster handling and sportier character</li>
+            <li>4 seats, smaller boot, lower roofline</li>
+            <li>Generally better due to smaller engine and lower weight</li>
+            </ul>
+            <button class="btn">Change Car</button>
+        </div>
+
+        <div class="comparison-card">
+            <img src="AMGGLE53SUV.png">
+            <h3>Mercedes-AMG GLE 53 SUV</h3>
+            <ul>
+            <li>Performance luxury SUV</li>
+            <li>Higher seating, more comfort and versatility</li>
+            <li>3.0L turbocharged inline-6 with mild-hybrid assistance, 449 hp</li>
+            <li>Quick for an SUV (0–100 km/h around 4.9 sec)</li>
+            <li>Much larger cabin and cargo space, family-friendly</li>
+            <li>Higher fuel consumption due to size and weight</li>
+            </ul>
+            <button class="btn">Change Car</button>
+        </div>
+    </div>
+</section>
+
+<!-- TEST DRIVE FORM -->
+<div class="testdriveform">
+<section id="test-drive">
+  <h1 class="page-title">Test Drive Form</h1>
+  <p class="page-desc">Book your personalised Mercedes-Benz test drive and provide your contact details below.</p>
+ 
+  <!-- STEP 1 -->
+  <div class="step">
+    <div class="step-label">
+      <span class="step-num">1</span>
+      <span class="step-tag">SELECTED CAR</span>
+    </div>
+    <div class="step-body car-card">
+      <div>
+        <p class="car-title">Your Selected car</p>
+      </div>
+      <img src="AMGGLE53SUV.png" alt="Selected car" class="car-img">
+      <div class="car-model">
+        <p class="car-model-title">Mercedes-AMG GLE 53 SUV</p>
+        <p class="car-model-text">Mercedes-AMG GLE 53 HYBRID 4MATIC+ Premium | Fuel 
+            consumption combined: 67.3 mpg[1]CO₂ emissions weighted: 95 g/km[1]Equivalent</p>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- STEP 2 -->
+  <div class="step step-active">
+    <div class="step-label">
+      <span class="step-num">2</span>
+      <span class="step-tag">TEST DRIVE DETAILS</span>
+    </div>
+    <div class="step-body">
+      <h2 class="form-heading">WHEN WOULD YOU LIKE A TEST DRIVE?</h2>
+ 
+      <label class="field-label" for="date">Preferred Date (optional)</label>
+      <select class="field-select" id="date">
+        <option value="">Select</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+      </select>
+ 
+      <h3 class="sub-heading">CONTACT DETAILS</h3>
+ 
+      <label class="field-label" for="title">Title (optional)</label>
+      <select class="field-select" id="title">
+        <option value="">Select</option>
+        <option>Mr</option>
+        <option>Mrs</option>
+        <option>Ms</option>
+        <option>Dr</option>
+      </select>
+ 
+      <label class="field-label bold" for="fname">First name</label>
+      <input class="field-input" type="text" id="fname" placeholder="Placeholder">
+ 
+      <label class="field-label bold" for="surname">Surname</label>
+      <input class="field-input" type="text" id="surname" placeholder="Placeholder">
+ 
+      <label class="field-label bold" for="email">Email address</label>
+      <input class="field-input" type="email" id="email" placeholder="Placeholder">
+ 
+      <label class="field-label bold" for="phone">Contact number</label>
+      <input class="field-input" type="tel" id="phone" placeholder="Placeholder">
+    </div>
+  </div>
+
+
+  <!-- STEP 3 -->
+  <div class="step">
+    <div class="step-label">
+      <span class="step-num">3</span>
+      <span class="step-tag">KEEP IN TOUCH</span>
+    </div>
+    <div class="step-body">
+      <p class="keep-text">Please let us know how you would like to be contacted regarding your test drive and future Mercedes-Benz offers.
+       Mercedes AMG will use the information below to verify your selected dealer. We will share your details with that dealer to enable them to fulfil your request using one of the methods below.
+      </p>
+      <div class="checkboxes">
+        <label><input type="checkbox" checked> Email</label>
+        <label><input type="checkbox" checked> Phone</label>
+        <label><input type="checkbox" checked> Text</label>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="submit-row">
+    <button type="button" class="btn" id="submitTestDrive">
+        Submit
+    </button>
+</div>
+</section>
+
+  <!-- SIGN UP SECTION -->
+  <section id="sign-up">
+
+<h2 class="signup-title">Sign up for the full<br>Mercedes-Benz experience.</h2>
+<p class="page-desc">Stay up to date with the latest models, exclusive offers, and events from Mercedes-Benz.</p>
+
+<div class="signup-form">
+    <div class="signup-grid">
+      <div class="signup-col">
+        <label class="field-label" for="su-title">Title (optional)</label>
+        <select class="field-select" id="su-title">
+          <option value="">Select</option>
+          <option>Mr</option>
+          <option>Mrs</option>
+          <option>Ms</option>
+          <option>Dr</option>
+        </select>
+ 
+        <label class="field-label bold" for="su-fname">First name</label>
+        <input class="field-input" type="text" id="su-fname" placeholder="Placeholder">
+ 
+        <label class="field-label bold" for="su-surname">Surname</label>
+        <input class="field-input" type="text" id="su-surname" placeholder="Placeholder">
+      </div>
+ 
+      <div class="signup-col">
+        <label class="field-label bold" for="su-phone">Contact number</label>
+        <input class="field-input" type="tel" id="su-phone" placeholder="Placeholder">
+ 
+        <label class="field-label bold" for="su-email">Email address</label>
+        <input class="field-input" type="email" id="su-email" placeholder="Placeholder">
+      </div>
+    </div>
+ 
+    <div class="signup-footer">
+      <div class="checkboxes">
+        <label><input type="checkbox" checked> Email</label>
+        <label><input type="checkbox" checked> Phone</label>
+        <label><input type="checkbox" checked> Text</label>
+      </div>
+      <button class="btn" onclick="window.location.href='thankyou.html'">submit</button>
+    </div>
+  </div>
+ 
+</div>
+</section>
+</div>
+
+<footer>
+    <p>© 2025 Modern Car Showroom</p>
+</footer>
+
+</body>
+</html>
